@@ -12,14 +12,12 @@ namespace APIVerve.API.TruthorDare
     {
         /// <summary>
         /// Prompt type: truth, dare, or random
-        /// Example: random
         /// </summary>
         [JsonProperty("type")]
         public string Type { get; set; }
 
         /// <summary>
         /// Include adult/spicy prompts
-        /// Example: false
         /// </summary>
         [JsonProperty("adult")]
         public string Adult { get; set; }
