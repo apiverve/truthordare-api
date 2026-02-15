@@ -1,17 +1,20 @@
 [project]
 name = "apiverve-truthordare"
-version = "1.1.12"
+version = "1.1.13"
 authors = [
   { name="APIVerve", email="hello@apiverve.com" },
 ]
 description = "Truth or Dare generates random truth questions and dare challenges for the classic party game. Features 400+ unique prompts with per-API-key tracking to avoid repeats."
-keywords = ["truth or dare", "party game", "prompts", "questions", "dares"]
+keywords = []
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.7"
+license = "MIT"
+dependencies = [
+    "requests>=2.25.0"
+]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Intended Audience :: Developers",
     "Intended Audience :: Financial and Insurance Industry",
