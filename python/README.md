@@ -44,7 +44,10 @@ from apiverve_truthordare.apiClient import TruthordareAPIClient
 # Initialize the client with your APIVerve API key
 api = TruthordareAPIClient("[YOUR_API_KEY]")
 
-query = { "type": "random", "adult":  }
+query = {
+    "type": "random",
+    "adult": 
+}
 
 try:
     # Make the API call
@@ -82,7 +85,10 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "type": "random", "adult":  }
+query = {
+    "type": "random",
+    "adult": 
+}
 ```
 
 ###### Simple Request
@@ -121,7 +127,10 @@ from apiverve_truthordare.apiClient import TruthordareAPIClient, TruthordareAPIC
 
 api = TruthordareAPIClient("[YOUR_API_KEY]")
 
-query = { "type": "random", "adult":  }
+query = {
+    "type": "random",
+    "adult": 
+}
 
 try:
     result = api.execute(query)
@@ -142,7 +151,10 @@ from apiverve_truthordare.apiClient import TruthordareAPIClient, TruthordareAPIC
 
 api = TruthordareAPIClient("[YOUR_API_KEY]")
 
-query = { "type": "random", "adult":  }
+query = {
+    "type": "random",
+    "adult": 
+}
 
 try:
     result = api.execute(query)
@@ -176,7 +188,10 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_truthordare.apiClient import TruthordareAPIClient, TruthordareAPIClientError
 
-query = { "type": "random", "adult":  }
+query = {
+    "type": "random",
+    "adult": 
+}
 
 # Using context manager ensures proper cleanup
 with TruthordareAPIClient("[YOUR_API_KEY]") as api:
@@ -202,7 +217,10 @@ from apiverve_truthordare.apiClient import TruthordareAPIClient
 # Enable debug mode
 api = TruthordareAPIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "type": "random", "adult":  }
+query = {
+    "type": "random",
+    "adult": 
+}
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -217,8 +235,12 @@ from apiverve_truthordare.apiClient import TruthordareAPIClient
 
 api = TruthordareAPIClient("[YOUR_API_KEY]")
 
+query = {
+    "type": "random",
+    "adult": 
+}
+
 try:
-    query = { "type": "random", "adult":  }
     result = api.execute(query)
     print(result)
 finally:
