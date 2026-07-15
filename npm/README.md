@@ -125,8 +125,8 @@ async function makeRequest() {
   "status": "ok",
   "error": null,
   "data": {
-    "type": "dare",
-    "prompt": "Do your best impression of a malfunctioning robot."
+    "type": "truth",
+    "prompt": "What is the weirdest thing you've ever eaten?"
   }
 }
 ```
