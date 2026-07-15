@@ -17,11 +17,14 @@ def call_truthordare_api():
     Make a GET request to the Truth or Dare API
     """
     try:
+        # Query parameters
+        params &#x3D; {&#x27;type&#x27;: &#x27;random&#x27;, &#x27;adult&#x27;: false}
+
         headers = {
             'x-api-key': API_KEY
         }
 
-        response = requests.get(API_URL, headers=headers)
+        response = requests.get(API_URL, headers=headers, params=params)
 
         # Raise exception for HTTP errors
         response.raise_for_status()
