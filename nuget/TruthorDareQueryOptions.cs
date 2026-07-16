@@ -20,6 +20,6 @@ namespace APIVerve.API.TruthorDare
         /// Include adult/spicy prompts
         /// </summary>
         [JsonProperty("adult")]
-        public string Adult { get; set; }
+        public bool? Adult { get; set; }
     }
 }
