@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/truthordare",
-  "version": "1.2.0",
-  "description": "Truth or Dare generates random truth questions and dare challenges for the classic party game. Features 400+ unique prompts with per-API-key tracking to avoid repeats.",
+  "version": "1.2.2",
+  "description": "The Truth or Dare API generates random truth questions and dare challenges for the classic party game. Features 400+ unique prompts with per-API-key tracking to avoid repeats.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "truth or dare", "party game", "prompts", "questions", "dares"
+    "truth or dare api", "truth and dare api", "random truth or dare questions", "truth or dare", "party game prompts"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/truthordare-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/truthordare?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/truthordare?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
