@@ -2,9 +2,9 @@ openapi: 3.0.4
 info:
   title: Truth or Dare
   description: >-
-    Truth or Dare generates random truth questions and dare challenges for the
-    classic party game. Features 400+ unique prompts with per-API-key tracking
-    to avoid repeats.
+    The Truth or Dare API generates random truth questions and dare challenges
+    for the classic party game. Features 400+ unique prompts with per-API-key
+    tracking to avoid repeats.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -19,7 +19,7 @@ servers:
 paths:
   /v1/truthordare:
     get:
-      summary: Generate Prompt
+      summary: Truth or Dare
       description: Generate a truth or dare prompt
       operationId: truthordare
       parameters:
